@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raycasting Engine in C Demo</title>
+    <title>Golden Point Demo</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Raycasting Engine in C Demo</h1>
+    <h1>Golden Point Demo</h1>
     <canvas id="canvas"></canvas>
     <script>
         var Module = {
@@ -24,10 +24,10 @@
         <div class="section">
             <h2>Controls</h2>
             <p>WASD - move camera</p>
-            <p>left/right arrows - turn camera</p>
+            <p>mouse/left/right arrows - turn camera</p>
             <p>up/down arrows - raise/lower camera</p>
             <p>E - open doors</p>
-            <p>spacebar - shoot projectile (feature in the works)</p>
+            <p>spacebar - fire projectile (feature in the works)</p>
             <p>1 - first person view</p>
             <p>2 - top-down view</p>
             <p>/ - open/close terminal</p>
@@ -41,19 +41,21 @@
             <p>run - unavailable on the web</p>
         </div>
         <div class="section">
-            <h2>Bugs (not exclusive to the web version)</h2>
+            <h2>Bugs</h2>
             <p>Door texture rendering</p>
             <p>Doors can't be moved through</p>
+            <p>Sky texture graphic errors (exclusive to web version)</p>
         </div>
         <div class="section">
             <h2>Features in the works</h2>
             <p>A dynamic lighting system designed to work with the engine's grid-based map</p>
-            <p>Sprites existing at different elevation levels, not just the center</p>
             <p>Enemies and projectiles</p>
+            <p>Entity behavior scripting</p>
         </div>
         <div class="section">
             <h2>Notes</h2>
-            <p>This version of the engine has been compiled for the web using the SDL3 support of Emscripten.</p>
+            <p>This version of the Golden Point engine has been compiled for the web using the SDL3 support of Emscripten.</p>
+            <p>Sound is unsupported on the web version of this project.</p>
             <p>The repository can be found <a href="https://github.com/nathanallison0/Raycasting-Engine-in-C">here</a>.</p>
         </div>
     </div>
